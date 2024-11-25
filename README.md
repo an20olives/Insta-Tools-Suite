@@ -11,7 +11,7 @@ unfollower.py:
 Unfollows users listed in does_not_follow_back.txt.
 Includes a confirmation dialog to warn users about temporarily disabling Two-Factor Authentication (2FA/MFA).
 Interactive Menu (interface.py):
-Allows users to choose between the two scripts (doesNotFollowChecker9000.py or unfollower.py) via a command-line menu.
+Allows users to choose between the two scripts (followsMeCheck.py or unfollower.py) via a command-line menu.
 Includes a 2FA/MFA warning before running the unfollower script to ensure users are aware of required security changes.
 Requirements
 
