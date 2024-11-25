@@ -44,9 +44,9 @@ Start the Tool: Run the interface.py script:
 python3 interface.py
 Select an Option:
 
-Option 1: Run doesNotFollowChecker9000.py to identify users who don’t follow you back.
+Option 1: Run interace.py to use the tools together.
 
-Option 2: Run unfollower.py to unfollow users listed in does_not_follow_back.txt.
+Option 2: Run followsMeCheck.py and unfollowerScript.py one at a time to unfollow users listed in does_not_follow_back.txt.
 
 ⚠️ Note: You must temporarily disable Two-Factor Authentication (2FA/MFA) on your Instagram account to use this feature.
 
