@@ -4,16 +4,16 @@ import subprocess
 def main():
     print("Welcome to the Instagram Tool Suite!")
     print("Please select an option:")
-    print("1. Run 'doesNotFollowChecker9000.py' to check who doesn't follow you back")
-    print("2. Run 'unfollower.py' to unfollow users listed in 'does_not_follow_back.txt'")
+    print("1. Run 'followsMeCheck.py' to check who doesn't follow you back")
+    print("2. Run 'unfollowerScript.py' to unfollow users listed in 'does_not_follow_back.txt'")
     print("3. Exit")
 
     while True:
         try:
             choice = int(input("Enter your choice (1/2/3): "))
             if choice == 1:
-                print("Running 'doesNotFollowChecker9000.py'...")
-                run_script("doesNotFollowChecker9000.py")
+                print("Running 'followsMeCheck.py'...")
+                run_script("followsMeCheck.py")
                 break
             elif choice == 2:
                 print_warning_and_confirm()
@@ -39,8 +39,8 @@ def print_warning_and_confirm():
 
     confirmation = input("Enter your confirmation: ")
     if confirmation.strip().upper() == "YES":
-        print("Confirmation received. Running 'unfollower.py'...")
-        run_script("unfollower.py")
+        print("Confirmation received. Running 'unfollowerScript.py'...")
+        run_script("unfollowerScript.py")
     else:
         print("Operation canceled. Returning to the main menu.")
 
