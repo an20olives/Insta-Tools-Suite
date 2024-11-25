@@ -4,10 +4,10 @@ This repository includes a user-friendly interface script (interface.py) for man
 
 Features
 
-doesNotFollowChecker9000.py:
+followsMeCheck.py:
 Checks which Instagram users don’t follow you back.
 Outputs the results to a file (does_not_follow_back.txt).
-unfollower.py:
+unfollowerScript.py:
 Unfollows users listed in does_not_follow_back.txt.
 Includes a confirmation dialog to warn users about temporarily disabling Two-Factor Authentication (2FA/MFA).
 Interactive Menu (interface.py):
